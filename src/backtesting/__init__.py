@@ -1,6 +1,16 @@
 """Backtesting module for Astra Trading Platform."""
 
-from .engine import BacktestEngine
-from .strategies import MomentumStrategy, MeanReversionStrategy
+from .astra_vectorbt import (
+    AstraBacktestConfig,
+    AstraBacktestResult,
+    AstraVectorBT,
+    create_astra_backtest,
+)
+from .engine import BacktestEngine, BacktestResult
+from .strategies import MeanReversionStrategy, MomentumStrategy
 
-__all__ = ['BacktestEngine', 'MomentumStrategy', 'MeanReversionStrategy']
+__all__ = [
+    "BacktestEngine", "BacktestResult",
+    "MomentumStrategy", "MeanReversionStrategy",
+    "AstraVectorBT", "AstraBacktestResult", "AstraBacktestConfig", "create_astra_backtest",
+]

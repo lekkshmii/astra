@@ -1,5 +1,4 @@
-"""
-Astra Trading Platform
+"""Astra Trading Platform.
 ======================
 
 Advanced Monte Carlo Risk Analysis for Algorithmic Trading
@@ -18,5 +17,3 @@ __version__ = "0.1.0"
 __author__ = "Astra Development Team"
 
 # Core imports for easy access
-from .data.loader import DataLoader
-from .backtesting.engine import BacktestEngine

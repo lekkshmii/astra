@@ -4,40 +4,40 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Astra is a sophisticated trading platform that combines high-performance Rust Monte Carlo simulations with professional Python backtesting infrastructure. Built for quantitative researchers and algorithmic traders who need institutional-grade risk analysis.
 
-## ⚡ Key Features
+## Key Features
 
-### 🦀 **Rust-Powered Monte Carlo Engine**
+### **Rust-Powered Monte Carlo Engine**
 - **Flash Crash Scenarios**: Model sudden liquidity evaporation events
 - **Regime Switching**: Bull/bear market transition simulations  
 - **Correlation Breakdown**: Asset correlation shock modeling
 - **Volatility Clustering**: GARCH-style volatility persistence
 - **Portfolio Stress Testing**: Comprehensive risk assessment
 
-### 📊 **Professional Backtesting**
+### **Professional Backtesting**
 - **Signal-Based Testing**: Clean separation of strategy and execution
 - **Transaction Cost Modeling**: Realistic commission and slippage
 - **Multiple Strategies**: Momentum, mean reversion, pairs trading, volatility breakout
 - **Performance Metrics**: Sharpe, Calmar, drawdown, VaR calculations
 - **VectorBT Integration**: (Optional) for advanced vectorized backtesting
 
-### 🛡️ **Risk Management**
+### **Risk Management**
 - **Circuit Breakers**: Institutional-grade safety mechanisms
 - **Position Sizing**: Dynamic allocation with Monte Carlo inputs
 - **Real-time Monitoring**: Portfolio risk assessment
 - **Stress Testing**: Multi-scenario portfolio analysis
 
-### 📈 **Data & Visualization**
+### **Data & Visualization**
 - **Market Data Integration**: yfinance with robust error handling
 - **Professional Charts**: Publication-quality visualizations
 - **Comprehensive Reporting**: Detailed performance analytics
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Python 3.9-3.11** (required for VectorBT compatibility)
@@ -98,7 +98,7 @@ for scenario, metrics in stress_results.items():
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -130,7 +130,7 @@ astra-main/
 
 ---
 
-## 📋 Examples
+## Examples
 
 ### 1. Basic Momentum Strategy
 
@@ -178,7 +178,7 @@ for scenario_name, result in stress_results.items():
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run foundation tests
@@ -193,7 +193,7 @@ poetry run pytest tests/ -v
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 Astra provides comprehensive performance analysis:
 
@@ -217,7 +217,7 @@ Astra provides comprehensive performance analysis:
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Strategy Parameters
 
@@ -257,9 +257,9 @@ engine = BacktestEngine(
 
 ---
 
-## 🚨 Risk Warnings
+## Risk Warnings
 
-⚠️ **Important Disclaimers**
+**Important Disclaimers**
 
 1. **No Financial Advice**: This software is for educational and research purposes only
 2. **Backtesting Limitations**: Past performance does not guarantee future results
@@ -269,7 +269,7 @@ engine = BacktestEngine(
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our contributing guidelines:
 
@@ -280,13 +280,13 @@ We welcome contributions! Please see our contributing guidelines:
 
 ---
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **VectorBT**: Vectorized backtesting framework
 - **PyO3**: Python-Rust integration
@@ -295,4 +295,4 @@ MIT License - see LICENSE file for details.
 
 ---
 
-**Built with ❤️ for the quantitative trading community**
+**Built for the quantitative trading community**

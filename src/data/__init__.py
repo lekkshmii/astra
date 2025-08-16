@@ -1,7 +1,7 @@
 """Data management module for Astra Trading Platform."""
 
 from .loader import DataLoader
-from .validator import DataValidator
 from .preprocessor import DataPreprocessor
+from .validator import DataValidator
 
-__all__ = ['DataLoader', 'DataValidator', 'DataPreprocessor']
+__all__ = ["DataLoader", "DataValidator", "DataPreprocessor"]
